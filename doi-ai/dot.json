@@ -1,0 +1,31 @@
+{
+  "ma": "vsep",
+  "ten": "Ôn Luyện VSTEP cho BéIu",
+  "viec": [
+    {
+      "ten": "nd",
+      "agent": "nd",
+      "viec": "dữ liệu từ vựng, mẫu câu, chủ đề nói",
+      "prompt": "giao-nd.md",
+      "file": ["tests/ai-coordination/VSTEP/web/js/data.js"],
+      "lenhTest": "node --test tests/ai-coordination/VSTEP/tests/data.test.js"
+    },
+    {
+      "ten": "be",
+      "agent": "be",
+      "viec": "lặp lại ngắt quãng, câu hỏi, lưu tiến độ và hành vi web",
+      "prompt": "giao-be.md",
+      "file": ["tests/ai-coordination/VSTEP/web/js/srs.js", "tests/ai-coordination/VSTEP/web/js/quiz.js", "tests/ai-coordination/VSTEP/web/js/store.js", "tests/ai-coordination/VSTEP/web/js/app.js", "tests/ai-coordination/VSTEP/tests/be.extra.test.js"],
+      "lenhTest": "node --test tests/ai-coordination/VSTEP/tests/logic.test.js"
+    },
+    {
+      "ten": "fe",
+      "agent": "fe",
+      "viec": "giao diện, CSS và biểu tượng chủ đề",
+      "prompt": "giao-fe.md",
+      "file": ["tests/ai-coordination/VSTEP/web/index.html", "tests/ai-coordination/VSTEP/web/style.css", "tests/ai-coordination/VSTEP/web/assets/*"],
+      "lenhTest": "node --test tests/ai-coordination/VSTEP/tests/ui.test.js"
+    }
+  ],
+  "qa": { "agent": "qa", "prompt": "giao-qa.md" }
+}

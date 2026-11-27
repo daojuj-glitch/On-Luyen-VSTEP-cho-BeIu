@@ -1,0 +1,48 @@
+{
+  "duAn": "D:/AI-Team-Test",
+  "nhanhGoc": "ai/todo-test",
+  "thuMucWorktree": "D:/AI-Team-worktrees",
+  "lenhTest": "node --test tests/ai-coordination/VSTEP/tests/*.test.js",
+  "vanPhong": "%USERPROFILE%/van-phong-ao-3d",
+  "vanPhongUrl": "http://localhost:7788",
+  "traiLerCommit": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+  "thoiGianToiDaGiay": 2700,
+  "agent": {
+    "be": {
+      "vai": "Codex-Dev",
+      "tenVai": "Phụ trách backend (Codex)",
+      "loai": "codex",
+      "exe": "%USERPROFILE%/.vscode/extensions/openai.chatgpt-*-win32-x64/bin/windows-x86_64/codex.exe",
+      "model": "gpt-6.2-sol",
+      "muc": "medium",
+      "mucSuaNho": "low",
+      "chayDuocLenh": true
+    },
+    "fe": {
+      "vai": "Antigravity-Design",
+      "tenVai": "Phụ trách frontend (Antigravity)",
+      "loai": "agy",
+      "exe": "%LOCALAPPDATA%/agy/bin/agy.exe",
+      "model": "gemini-4-hydrogen-medium",
+      "modelSuaNho": "gemini-4-hydrogen-low",
+      "thoiGian": "25m",
+      "chayDuocLenh": true
+    },
+    "nd": {
+      "vai": "DeepSeek-Dev",
+      "tenVai": "Phụ trách nội dung (DeepSeek)",
+      "loai": "opencode",
+      "exe": "opencode",
+      "model": "opencode/deepseek-v4.1-flash-free",
+      "chayDuocLenh": true
+    },
+    "qa": {
+      "vai": "DeepSeek-Dev",
+      "tenVai": "Phụ trách kiểm tra trước phê duyệt (DeepSeek)",
+      "loai": "opencode",
+      "exe": "opencode",
+      "model": "opencode/deepseek-v4.1-flash-free",
+      "chayDuocLenh": true
+    }
+  }
+}
